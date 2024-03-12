@@ -1,10 +1,9 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-
-let version = "3"
-let mediasoupChecksum = "694ae119c0363555d9ca8e35db1ec23da5b7f0fece6ab2717c69ae5940d1986c"
-let webrtcChecksum = "fc8103a65abe311545499be8f539d09c11ab5ba94a8a4bf7edad27ddc723b6de"
+let version = "4"
+let mediasoupChecksum = "5f331ac08e82a04ec5faf2a63c90c5865b8825b17bfec3fb0fd671678f7461a6"
+let webrtcChecksum = "00bfbbab9279ccc5e5f595ef89350f70e80acbc471e101718d218876b1ed51ba"
 
 
 let package = Package(
@@ -26,12 +25,12 @@ let package = Package(
 	targets: [
 		.binaryTarget(
 			name: "Mediasoup",
-			url: "https://github.com/VLprojects/mediasoup-client-swift/releases/download/\(version)/Mediasoup.xcframework.zip",
+			url: "https://github.com/muneebahmad840/WMediasoup/releases/tag/LATEST/Mediasoup.xcframework.zip",
 			checksum: mediasoupChecksum
 		),
 		.binaryTarget(
 			name: "WebRTC",
-			url: "https://github.com/VLprojects/mediasoup-client-swift/releases/download/\(version)/WebRTC.xcframework.zip",
+			url: "https://github.com/muneebahmad840/WMediasoup/releases/tag/LATEST/WebRTC.xcframework.zip",
 			checksum: webrtcChecksum
 		)
 	]
