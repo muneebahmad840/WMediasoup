@@ -1,5 +1,5 @@
 /*
- *  Copyright 2023 The WebRTC project authors. All Rights Reserved.
+ *  Copyright 2022 The WebRTC project authors. All Rights Reserved.
  *
  *  Use of this source code is governed by a BSD-style license
  *  that can be found in the LICENSE file in the root of the source
@@ -75,6 +75,7 @@
 #import <WebRTC/RTCCameraVideoCapturer.h>
 #import <WebRTC/RTCFileVideoCapturer.h>
 #import <WebRTC/RTCMTLNSVideoView.h>
+#import <WebRTC/RTCNSGLVideoView.h>
 #import <WebRTC/RTCVideoViewShading.h>
 #import <WebRTC/RTCCodecSpecificInfoH264.h>
 #import <WebRTC/RTCDefaultVideoDecoderFactory.h>
